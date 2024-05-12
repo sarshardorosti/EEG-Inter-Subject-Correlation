@@ -96,8 +96,8 @@ The study validates ISC as a robust method for examining neural responses, highl
 Only EEG data related to animation 4 is placed here. More data will be updated soon.
 
 - **[Project Repository](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation.git)**
-- **[EEG Dataset](https://drive.google.com/file/d)**
-- **[Video Visualization of Test Results](https://drive.google.com/file/d/1LDGlXA033PbD07uUoQRVTUeFBKS5L9n/view?usp=sharing)**
+- **[EEG Dataset]([https://drive.google.com/file/d](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/tree/main/Data))**
+- **[Video Visualization of Test Results](https://drive.google.com/file/d/1LDGlXA033PbD07u7UoQRVTUeFBKS5L9n/view?usp=sharing)**
 
 
 
