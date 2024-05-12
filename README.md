@@ -23,6 +23,7 @@ This study utilizes Inter-Subject Correlation (ISC) to examine the brain states 
 ## Data Collection
 
 Data collection involved recording EEG from subjects viewing fractal animations on a 42" monitor. EEG data were captured using a 32-electrode setup, synchronized with the presentation of the visual stimuli to ensure accuracy in temporal alignment.
+![image](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/90fc85da-9674-4b41-9767-10b9c159a86c)
 
 ## Preprocessing
 
