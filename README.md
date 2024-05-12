@@ -30,6 +30,12 @@ Data collection involved recording EEG from subjects viewing fractal animations 
 ![Screenshot 2024-05-12 110856](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/5b51c74d-f4fc-46fd-b87a-dfddfb7a985b)
 
 
+
+
+To import data, the address of the first data must be given to raw2 to use the data structure for processing.
+The extension of the data must be .set and also the entire data set must be located at the address data_dir = './data/'.
+
+
 ## Preprocessing
 
 Raw EEG data were processed through several stages:
