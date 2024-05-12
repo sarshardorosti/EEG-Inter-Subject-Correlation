@@ -48,6 +48,8 @@ Key functions in the project include:
 
 The project involves creating visualizations to display ISC results comprehensively. Functions manage the creation of bar charts, topographic maps, and the documentation of results in Excel for accessibility and further analysis.
 
+![Untitled-1](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/3991da54-5f06-4896-9e0c-9f1272bd5746)
+
 ## Evaluation Techniques
 
 Robustness tests are conducted using:
@@ -57,6 +59,7 @@ Robustness tests are conducted using:
 ## Conclusions
 
 The study validates ISC as a robust method for examining neural responses, highlighting the critical roles of precise temporal and phase alignments in understanding collective neural dynamics.
+
 
 ## References and Appendices
 
