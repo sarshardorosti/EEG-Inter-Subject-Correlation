@@ -4,7 +4,11 @@
 
 This project investigates neural responses to fractal animations using Inter-Subject Correlation (ISC) within the curriculum of Bournemouth University's "Artificial Intelligence for Media" course. We analyze EEG data from fifteen healthy postgraduate male students to study how their brains react consistently to identical visual stimuli. The results offer insights into neural mechanisms and contribute to the design of neuropsychological tests and therapeutic interventions.
 ![Experiment paradigm](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/db5494dd-88ae-4514-a995-31650092fd98)
-https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/5ad30eb4-1a84-4639-863a-328f3e4eacbd
+
+
+https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/9fa84d7e-2fbc-44db-8e8d-8a5cb2c3c383
+
+
 
 ## Table of Contents
 
