@@ -12,10 +12,11 @@ This project investigates neural responses to fractal animations using Inter-Sub
 - [Preprocessing](#preprocessing)
 - [Analytical Techniques](#analytical-techniques)
 - [Implementation](#implementation)
-- [Visualization and Management](#visualization-and-management)
+- [Visualization and Results Management](#visualization-and-results-management)
 - [Evaluation Techniques](#evaluation-techniques)
 - [Conclusions](#conclusions)
 - [References and Appendices](#references-and-appendices)
+- [Project Resources](#project-resources)
 
 ## Introduction
 
@@ -24,12 +25,10 @@ This study utilizes Inter-Subject Correlation (ISC) to examine the brain states 
 
 ## Data Collection
 
-Data collection involved recording EEG from subjects viewing fractal animations on a 42" monitor. EEG data were captured using a 32-electrode setup, synchronized with the presentation of the visual stimuli to ensure accuracy in temporal alignment.
+EEG data were collected using a 32-electrode setup from subjects as they viewed fractal animations on a 42" monitor. The data capture was synchronized with the visual stimuli presentation to ensure precise temporal alignment. Data collection involved 15 male postgraduate students, non-smokers with no history of mental disorders. Detailed preparation ensured accurate data by recording sessions between 9 to 11 AM in a controlled environment.
 
 ![Screenshot 2024-05-12 110005](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/fdf97f21-887d-4a0c-9f9c-1a6a7ceb0254)
 ![Screenshot 2024-05-12 110856](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/5b51c74d-f4fc-46fd-b87a-dfddfb7a985b)
-
-
 
 
 To import data, the address of the first data must be given to raw2 to use the data structure for processing.
@@ -39,15 +38,17 @@ The extension of the data must be .set and also the entire data set must be loca
 ## Preprocessing
 
 Raw EEG data were processed through several stages:
-- Downsampling and band-pass filtering
-- Artifact removal using Independent Component Analysis (ICA)
-- Preparation of data for further analysis through meticulous preprocessing protocols
+- Downsampling to 256 Hz and band-pass filtering between 1 and 40 Hz.
+- Independent Component Analysis (ICA) for artifact removal, focusing on removing components associated with eye blinks and other common sources of noise.
+- Meticulous inspection and removal of bad channels and noisy data, using techniques like Kurtosis to identify outliers.
+
 
 ## Analytical Techniques
 
-Correlated Component Analysis (CCA) was the primary technique used, focusing on:
-- Identifying spatial filters that enhance correlations between brain signals
-- Computing covariance matrices and extracting informative eigenvectors and eigenvalues
+Utilizing Correlated Component Analysis (CCA) for:
+- Identifying spatial filters to enhance the correlation between brain signals across subjects under various experimental conditions.
+- Calculating and adjusting covariance matrices, and extracting significant eigenvectors and eigenvalues.
+
 
 ## Implementation
 
@@ -58,17 +59,20 @@ Key functions in the project include:
 
 ## Visualization and Management
 
-The project involves creating visualizations to display ISC results comprehensively. Functions manage the creation of bar charts, topographic maps, and the documentation of results in Excel for accessibility and further analysis.
+The project involves generating ISC values and distributions through visualizations like bar charts and topographic maps. Results are meticulously documented and managed in Excel for thorough analysis and accessibility.
 
 ![Untitled-1](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/3991da54-5f06-4896-9e0c-9f1272bd5746)
 
 ## Evaluation Techniques
 
 Robustness tests are conducted using:
-- `shuffle_in_time`: Tests the dependency of EEG data analyses on temporal sequence.
-- `phase_randomized`: Confirms genuine neural synchronizations and not artifacts.
+- **`shuffle_in_time`**: Confirms the dependency of EEG data analyses on the temporal sequence.
+- **`phase_randomized`**: Validates genuine neural synchronizations, distinguishing them from artifacts.
+- Detailed evaluations reveal the importance of precise temporal and phase alignments in interpreting neural synchronizations.
+
 ![ISC_Bar_Chart_shuffled copy](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/189c2b82-889a-46d3-831f-4c611d124b35)
 ![Screenshot 2024-05-12 110221](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/61a9b240-7289-48db-9974-9193f7e822c9)
+
 
 ## Conclusions
 
@@ -76,9 +80,11 @@ The study validates ISC as a robust method for examining neural responses, highl
 
 ![Screenshot 2024-05-12 110540](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/dc8713df-41de-4094-bd70-e43b8fe2821b)
 
+
 ## References and Appendices
 
-The project includes extensive references and appendices that support the methodologies and results discussed.
+Included are extensive references supporting our methodologies and results, along with appendices that detail the technical aspects and additional insights from the study.
+
 
 ## Project Resources
 
@@ -89,9 +95,9 @@ The project includes extensive references and appendices that support the method
 
 
 ## Reference list
-Dmochowski, J. P., Sajda, P., Dias, J. and Parra, L. C., 2012. Correlated Components of Ongoing EEG Point to Emotionally Laden Attention – A Possible Marker of Engagement? Frontiers in Human Neuroscience, 6.
-DOROSTI, S., NAMAZI, H. and KHOSROWABADI, R., 2022. ANALYSIS OF THE COMPLEXITY OF EEG SIGNALS IN RELATION TO THE COMPLEXITY OF FRACTAL ANIMATIONS. Fractals.
-Moreno Escobar, J. J., Morales Matamoros, O., Tejeida Padilla, R., Lina Reyes, I., Chanona Hernández, L. and Ramírez Gutiérrez, A. G., 2020. Brain-Inspired Healthcare Smart System Based on Perception-Action Cycle. Applied Sciences, 10 (10), 3532.
-Najafi, M., Kinnison, J. and Pessoa, L., 2017. Dynamics of Intersubject Brain Networks during Anxious Anticipation. Frontiers in Human Neuroscience, 11.
+- Dmochowski, J. P., et al. (2012). Correlated Components of Ongoing EEG Point to Emotionally Laden Attention – A Possible Marker of Engagement? *Frontiers in Human Neuroscience*, 6.
+- DOROSTI, S., et al. (2022). ANALYSIS OF THE COMPLEXITY OF EEG SIGNALS IN RELATION TO THE COMPLEXITY OF FRACTAL ANIMATIONS. *Fractals*.
+- Moreno Escobar, J. J., et al. (2020). Brain-Inspired Healthcare Smart System Based on Perception-Action Cycle. *Applied Sciences*, 10(10), 3532.
+- Najafi, M., et al. (2017). Dynamics of Intersubject Brain Networks during Anxious Anticipation. *Frontiers in Human Neuroscience*, 11.
 
 
