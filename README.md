@@ -71,4 +71,4 @@ The project includes extensive references and appendices that support the method
 - **[EEG Dataset](https://drive.google.com/file/d)**
 - **[Video Visualization of Test Results](https://drive.google.com/file/d/1LDGlXA033PbD07uUoQRVTUeFBKS5L9n/view?usp=sharing)**
 
-This README provides a professional overview of the project, facilitating understanding and exploration of the study, ensuring all necessary resources and references are accessible for users and researchers.
+
