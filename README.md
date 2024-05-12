@@ -61,7 +61,8 @@ Key functions in the project include:
 
 The project involves generating ISC values and distributions through visualizations like bar charts and topographic maps. Results are meticulously documented and managed in Excel for thorough analysis and accessibility.
 
-![Untitled-1](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/3991da54-5f06-4896-9e0c-9f1272bd5746)
+![Screenshot 2024-05-12 113537](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/085bca9b-c49b-4c22-a0d4-61e555d5c2d2)
+
 
 ## Evaluation Techniques
 
@@ -70,8 +71,10 @@ Robustness tests are conducted using:
 - **`phase_randomized`**: Validates genuine neural synchronizations, distinguishing them from artifacts.
 - Detailed evaluations reveal the importance of precise temporal and phase alignments in interpreting neural synchronizations.
 
-![ISC_Bar_Chart_shuffled copy](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/189c2b82-889a-46d3-831f-4c611d124b35)
-![Screenshot 2024-05-12 110221](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/61a9b240-7289-48db-9974-9193f7e822c9)
+![Screenshot 2024-05-12 113638](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/22fc3de3-a322-4ac7-a1a7-e72933d84e24)
+![Screenshot 2024-05-12 113601](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/b5ac3a4d-a8f0-4079-9cb3-3283817daa68)
+
+https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/5ad30eb4-1a84-4639-863a-328f3e4eacbd
 
 
 ## Conclusions
