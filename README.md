@@ -72,3 +72,11 @@ The project includes extensive references and appendices that support the method
 - **[Video Visualization of Test Results](https://drive.google.com/file/d/1LDGlXA033PbD07uUoQRVTUeFBKS5L9n/view?usp=sharing)**
 
 
+
+## Reference list
+Dmochowski, J. P., Sajda, P., Dias, J. and Parra, L. C., 2012. Correlated Components of Ongoing EEG Point to Emotionally Laden Attention – A Possible Marker of Engagement? Frontiers in Human Neuroscience, 6.
+DOROSTI, S., NAMAZI, H. and KHOSROWABADI, R., 2022. ANALYSIS OF THE COMPLEXITY OF EEG SIGNALS IN RELATION TO THE COMPLEXITY OF FRACTAL ANIMATIONS. Fractals.
+Moreno Escobar, J. J., Morales Matamoros, O., Tejeida Padilla, R., Lina Reyes, I., Chanona Hernández, L. and Ramírez Gutiérrez, A. G., 2020. Brain-Inspired Healthcare Smart System Based on Perception-Action Cycle. Applied Sciences, 10 (10), 3532.
+Najafi, M., Kinnison, J. and Pessoa, L., 2017. Dynamics of Intersubject Brain Networks during Anxious Anticipation. Frontiers in Human Neuroscience, 11.
+
+
