@@ -89,10 +89,6 @@ The study validates ISC as a robust method for examining neural responses, highl
 ![Screenshot 2024-05-12 110540](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/dc8713df-41de-4094-bd70-e43b8fe2821b)
 
 
-## References and Appendices
-
-Included are extensive references supporting our methodologies and results, along with appendices that detail the technical aspects and additional insights from the study.
-
 
 ## Project Resources
 
