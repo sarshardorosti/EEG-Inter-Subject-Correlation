@@ -23,8 +23,8 @@ This study utilizes Inter-Subject Correlation (ISC) to examine the brain states 
 ## Data Collection
 
 Data collection involved recording EEG from subjects viewing fractal animations on a 42" monitor. EEG data were captured using a 32-electrode setup, synchronized with the presentation of the visual stimuli to ensure accuracy in temporal alignment.
-![image](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/90fc85da-9674-4b41-9767-10b9c159a86c)
-![image](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/a1a1b4cb-aab3-41fe-9727-4d64e1a28cc0)
+![Screenshot 2024-05-12 110005](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/fdf97f21-887d-4a0c-9f9c-1a6a7ceb0254)
+
 
 ## Preprocessing
 
@@ -57,11 +57,14 @@ The project involves creating visualizations to display ISC results comprehensiv
 Robustness tests are conducted using:
 - `shuffle_in_time`: Tests the dependency of EEG data analyses on temporal sequence.
 - `phase_randomized`: Confirms genuine neural synchronizations and not artifacts.
+![ISC_Bar_Chart_shuffled copy](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/189c2b82-889a-46d3-831f-4c611d124b35)
+![Screenshot 2024-05-12 110221](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/61a9b240-7289-48db-9974-9193f7e822c9)
 
 ## Conclusions
 
 The study validates ISC as a robust method for examining neural responses, highlighting the critical roles of precise temporal and phase alignments in understanding collective neural dynamics.
 
+![Screenshot 2024-05-12 110540](https://github.com/sarshardorosti/EEG-Inter-Subject-Correlation/assets/50841748/dc8713df-41de-4094-bd70-e43b8fe2821b)
 
 ## References and Appendices
 
